@@ -1,0 +1,611 @@
+/**
+ * Professional Grade CSS Stylesheet
+ * Custom Scrollbar (Perfect Scrollbar) and Slick Carousel Styles
+ * Version: 1.0
+ * Author: Professional Development Team
+ */
+
+/* ==========================================================================
+   PERFECT SCROLLBAR STYLES
+   ========================================================================== */
+
+/**
+ * Base scrollbar container
+ * Provides foundation for custom scrollbar implementation
+ */
+.ps {
+  -ms-touch-action: auto;
+  touch-action: auto;
+  overflow: hidden !important;
+  -ms-overflow-style: none;
+}
+
+/**
+ * Microsoft Edge/IE compatibility support
+ * Ensures proper overflow behavior in legacy browsers
+ */
+@supports (-ms-overflow-style: none) {
+  .ps {
+    overflow: auto !important;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .ps {
+    overflow: auto !important;
+  }
+}
+
+/**
+ * Active scrollbar states
+ * Shows scrollbars when scrolling is active
+ */
+.ps.ps--active-x > .ps__scrollbar-x-rail,
+.ps.ps--active-y > .ps__scrollbar-y-rail {
+  display: block;
+  background-color: transparent;
+}
+
+/**
+ * Horizontal scrollbar during scroll interaction
+ */
+.ps.ps--in-scrolling.ps--x > .ps__scrollbar-x-rail {
+  background-color: #000000;
+  opacity: 0.9;
+}
+
+.ps.ps--in-scrolling.ps--x > .ps__scrollbar-x-rail > .ps__scrollbar-x {
+  background-color: #000000;
+  height: 11px;
+}
+
+/**
+ * Vertical scrollbar during scroll interaction
+ */
+.ps.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail {
+  background-color: #eeeeee;
+  opacity: 0.9;
+}
+
+.ps.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail > .ps__scrollbar-y {
+  background-color: #999999;
+  width: 11px;
+}
+
+/**
+ * Horizontal scrollbar rail
+ * Container for the horizontal scrollbar thumb
+ */
+.ps > .ps__scrollbar-x-rail {
+  display: none;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
+  -moz-transition: background-color 0.2s linear, opacity 0.2s linear;
+  -o-transition: background-color 0.2s linear, opacity 0.2s linear;
+  transition: background-color 0.2s linear, opacity 0.2s linear;
+  bottom: 0;
+  height: 15px;
+}
+
+/**
+ * Horizontal scrollbar thumb
+ * The draggable element for horizontal scrolling
+ */
+.ps > .ps__scrollbar-x-rail > .ps__scrollbar-x {
+  position: absolute;
+  background-color: #aaaaaa;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transition: background-color 0.2s linear, height 0.2s linear, width 0.2s ease-in-out, -webkit-border-radius 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s linear, height 0.2s linear, width 0.2s ease-in-out, border-radius 0.2s ease-in-out, -moz-border-radius 0.2s ease-in-out;
+  -o-transition: background-color 0.2s linear, height 0.2s linear, width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  transition: background-color 0.2s linear, height 0.2s linear, width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  bottom: 2px;
+  height: 6px;
+}
+
+/**
+ * Horizontal scrollbar hover and active states
+ */
+.ps > .ps__scrollbar-x-rail:hover > .ps__scrollbar-x,
+.ps > .ps__scrollbar-x-rail:active > .ps__scrollbar-x {
+  height: 11px;
+}
+
+/**
+ * Vertical scrollbar rail
+ * Container for the vertical scrollbar thumb
+ */
+.ps > .ps__scrollbar-y-rail {
+  display: none;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
+  -moz-transition: background-color 0.2s linear, opacity 0.2s linear;
+  -o-transition: background-color 0.2s linear, opacity 0.2s linear;
+  transition: background-color 0.2s linear, opacity 0.2s linear;
+  right: 0;
+  width: 15px;
+}
+
+/**
+ * Vertical scrollbar thumb
+ * The draggable element for vertical scrolling
+ */
+.ps > .ps__scrollbar-y-rail > .ps__scrollbar-y {
+  position: absolute;
+  background-color: #aaaaaa;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transition: background-color 0.2s linear, height 0.2s linear, width 0.2s ease-in-out, -webkit-border-radius 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s linear, height 0.2s linear, width 0.2s ease-in-out, border-radius 0.2s ease-in-out, -moz-border-radius 0.2s ease-in-out;
+  -o-transition: background-color 0.2s linear, height 0.2s linear, width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  transition: background-color 0.2s linear, height 0.2s linear, width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  right: 2px;
+  width: 6px;
+}
+
+/**
+ * Vertical scrollbar hover and active states
+ */
+.ps > .ps__scrollbar-y-rail:hover > .ps__scrollbar-y,
+.ps > .ps__scrollbar-y-rail:active > .ps__scrollbar-y {
+  width: 11px;
+}
+
+/**
+ * Container hover states for enhanced user experience
+ */
+.ps:hover.ps--in-scrolling.ps--x > .ps__scrollbar-x-rail {
+  background-color: #eeeeee;
+  opacity: 0.9;
+}
+
+.ps:hover.ps--in-scrolling.ps--x > .ps__scrollbar-x-rail > .ps__scrollbar-x {
+  background-color: #999999;
+  height: 11px;
+}
+
+.ps:hover.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail {
+  background-color: #eeeeee;
+  opacity: 0.9;
+}
+
+.ps:hover.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail > .ps__scrollbar-y {
+  background-color: #999999;
+  width: 11px;
+}
+
+.ps:hover > .ps__scrollbar-x-rail,
+.ps:hover > .ps__scrollbar-y-rail {
+  opacity: 0.6;
+}
+
+.ps:hover > .ps__scrollbar-x-rail:hover {
+  background-color: #eeeeee;
+  opacity: 0.9;
+}
+
+.ps:hover > .ps__scrollbar-x-rail:hover > .ps__scrollbar-x {
+  background-color: #999999;
+}
+
+.ps:hover > .ps__scrollbar-y-rail:hover {
+  background-color: #eeeeee;
+  opacity: 0.9;
+}
+
+.ps:hover > .ps__scrollbar-y-rail:hover > .ps__scrollbar-y {
+  background-color: #999999;
+}
+
+/* ==========================================================================
+   SLICK CAROUSEL STYLES
+   ========================================================================== */
+
+/**
+ * Slick carousel font face declaration
+ * Custom font for navigation arrows and dots
+ */
+@font-face {
+  font-family: 'slick';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/slick.eot');
+  src: url('fonts/slick.eot?#iefix') format('embedded-opentype'),
+       url('fonts/slick.woff') format('woff'),
+       url('fonts/slick.ttf') format('truetype'),
+       url('fonts/slick.svg#slick') format('svg');
+}
+
+/**
+ * Loading state background
+ */
+.slick-loading .slick-list {
+  background: url('ajax-loader.gif') center center no-repeat #ffffff;
+}
+
+/**
+ * Navigation arrows base styles
+ * Shared styles for previous and next buttons
+ */
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+/**
+ * Arrow focus and hover states
+ */
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: transparent;
+  outline: none;
+  background: transparent;
+}
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+  opacity: 1;
+}
+
+/**
+ * Disabled arrow states
+ */
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 0.25;
+}
+
+/**
+ * Arrow icons styling
+ */
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * Previous arrow positioning and content
+ */
+.slick-prev {
+  left: -25px;
+}
+
+[dir='rtl'] .slick-prev {
+  right: -25px;
+  left: auto;
+}
+
+.slick-prev:before {
+  content: '←';
+}
+
+[dir='rtl'] .slick-prev:before {
+  content: '→';
+}
+
+/**
+ * Next arrow positioning and content
+ */
+.slick-next {
+  right: -25px;
+}
+
+[dir='rtl'] .slick-next {
+  right: auto;
+  left: -25px;
+}
+
+.slick-next:before {
+  content: '→';
+}
+
+[dir='rtl'] .slick-next:before {
+  content: '←';
+}
+
+/**
+ * Dots navigation container
+ */
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+/**
+ * Individual dot styling
+ */
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+/**
+ * Dot button focus and hover states
+ */
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+
+/**
+ * Dot icon styling
+ */
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: 0.25;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * Active dot state
+ */
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #000000;
+}
+
+/**
+ * Core carousel structure
+ */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+/**
+ * Hardware acceleration for smooth animations
+ */
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/**
+ * Track container for slides
+ */
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: '';
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+/**
+ * Loading states
+ */
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+/**
+ * Individual slide styling
+ */
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+  float: right;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+/**
+ * Vertical carousel support
+ */
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+/**
+ * Hidden arrow state
+ */
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+/* ==========================================================================
+   CUSTOM COMPONENT STYLES
+   ========================================================================== */
+
+/**
+ * Professional print button component
+ * Modern gradient design with smooth interactions
+ */
+.prices__print {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #0077ff, #0056cc);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-decoration: none;
+  user-select: none;
+}
+
+/**
+ * Print button hover state
+ * Enhanced visual feedback with elevation
+ */
+.prices__print:hover:not(:disabled) {
+  background: linear-gradient(135deg, #0066e6, #0047aa);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/**
+ * Print button active state
+ * Subtle press feedback
+ */
+.prices__print:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+/**
+ * Print button disabled state
+ * Clear visual indication of unavailable state
+ */
+.prices__print:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background: #cfd4da;
+  color: #6c757d;
+  box-shadow: none;
+  transform: none;
+}
+
+/**
+ * Focus states for accessibility
+ */
+.prices__print:focus-visible {
+  outline: 2px solid #0077ff;
+  outline-offset: 2px;
+}

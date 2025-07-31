@@ -1,0 +1,31 @@
+{
+  "name": "JEELIZ",
+  "short_name": "JEELIZ",
+  "orientation": "portrait",
+  "fullscreen": "true",
+  "start_url": "index.html",
+  "icons": [{
+    "src": "images/logoIcons/logo128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "images/logoIcons/logo144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "images/logoIcons/logo152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "images/logoIcons/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "images/logoIcons/logo256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }],
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#01AFEC"
+}
