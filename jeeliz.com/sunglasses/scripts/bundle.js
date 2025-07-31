@@ -4875,7 +4875,7 @@
                 className: "welcomePage__logo"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/LOGO_JEELIZ_BETA.png",
+                src: "jeeliz.com/images/LOGO_JEELIZ_BETA.png",
                 alt: "Jeeliz"
             }))
               , Eo = (0,
@@ -4883,7 +4883,7 @@
                 className: "welcomePage__photo"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/affiche2.jpg",
+                src: "jeeliz.com/images/affiche2.jpg",
                 alt: ""
             }))
               , ko = (0,
@@ -4891,8 +4891,8 @@
                 className: "welcomePage__logo"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/LOGO_JEELIZ_BETA.png",
-                alt: "Jeeliz"
+                src: "jeeliz.com/images/LOGO_JEELIZ_BETA.png",
+                alt: "Jaiswal"
             }))
               , Mo = (0,
             o.Z)("div", {
@@ -4912,7 +4912,7 @@
                 className: "welcomePage__intro__title__container__amazonContainer__amazon"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/amazon-logo-full.jpg",
+                src: "jeeliz.com/images/amazon-logo-full.jpg",
                 alt: ""
             })))
               , Bo = (0,
@@ -5014,7 +5014,7 @@ t.prototype.componentDidMount = function() {
             }, void 0, (0,
             o.Z)("div", {}, void 0, (0,
             o.Z)("img", {
-                src: "images/JEELIZ_BETA.png",
+                src: "jeeliz.com/images/JEELIZ_BETA.png",
                 alt: "JEELIZ"
             })))
               , Ro = (0,
@@ -5023,7 +5023,7 @@ t.prototype.componentDidMount = function() {
             }, void 0, (0,
             o.Z)("img", {
                 className: "navigationMobile__tabIcon navigationMobileContainer__navigation__tryGlasses__tabContainer__icon",
-                src: "images/glasses-icon.svg",
+                src: "jeeliz.com/images/glasses-icon.svg",
                 alt: "Link to Virtual Mirror tab"
             }), (0,
             o.Z)("div", {
@@ -5046,7 +5046,7 @@ t.prototype.componentDidMount = function() {
             })
               , Uo = (0,
             o.Z)("img", {
-                src: "images/share.png",
+                src: "jeeliz.com/images/share.png",
                 alt: "Link to bestPrices tab",
                 className: "navigationMobile__tabIcon navigationMobileContainer__navigation__polls__tabContainer__icon"
             })
@@ -5284,7 +5284,7 @@ t.prototype.componentDidMount = function() {
                 className: "confirmDeletePoll__message__imgContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/robot.svg",
+                src: "jeeliz.com/images/robot.svg",
                 alt: "Asks Jeebot."
             })))
               , Xo = (0,
@@ -5399,7 +5399,7 @@ const ia = function(e) {
             var oa = 0
               , aa = (0,
             o.Z)("img", {
-                src: "images/coeur-empty.svg",
+                src: "jeeliz.com/images/coeur-empty.svg",
                 alt: "Likes"
             })
               , sa = (0,
@@ -5426,22 +5426,22 @@ const ia = function(e) {
             }))
               , pa = (0,
             o.Z)("img", {
-                src: "images/smiley-awesome.svg",
+                src: "jeeliz.com/images/smiley-awesome.svg",
                 alt: "Awesome"
             })
               , da = (0,
             o.Z)("img", {
-                src: "images/smiley-great.svg",
+                src: "jeeliz.com/images/smiley-great.svg",
                 alt: "Great"
             })
               , fa = (0,
             o.Z)("img", {
-                src: "images/smiley-nope.svg",
+                src: "jeeliz.com/images/smiley-nope.svg",
                 alt: "Nope"
             })
               , ha = (0,
             o.Z)("img", {
-                src: "images/smiley-soso.svg",
+                src: "jeeliz.com/images/smiley-soso.svg",
                 alt: "So so"
             })
               , ga = (0,
@@ -5490,13 +5490,13 @@ const ia = function(e) {
               , Aa = (0,
             o.Z)("img", {
                 className: "poll__buttonOpenPoll__close",
-                src: "images/minus.svg",
+                src: "jeeliz.com/images/minus.svg",
                 alt: "See less"
             })
               , wa = (0,
             o.Z)("img", {
                 className: "poll__buttonOpenPoll__open",
-                src: "images/eye.svg",
+                src: "jeeliz.com/images/eye.svg",
                 alt: "See more"
             })
               , xa = (0,
@@ -5881,7 +5881,7 @@ const ia = function(e) {
                         className: "poll__buttonDeletePoll"
                     }, void 0, p().createElement("img", {
                         className: "poll__buttonDeletePoll__image",
-                        src: "images/delete.svg",
+                        src: "jeeliz.com/images/delete.svg",
                         alt: "Delete",
                         ref: function(t) {
                             e.DOMdeleteButton = t
@@ -6023,14 +6023,14 @@ const ia = function(e) {
                 className: "tutorialVirtualMirror__tutorial__swipe__icons__vertical"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/swipe-leftright.svg",
+                src: "jeeliz.com/images/swipe-leftright.svg",
                 alt: "Swipe Vertically"
             })), (0,
             o.Z)("div", {
                 className: "tutorialVirtualMirror__tutorial__swipe__icons__horizontal"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/swipe-leftright.svg",
+                src: "jeeliz.com/images/swipe-leftright.svg",
                 alt: "Swipe Horizontally"
             }))), (0,
             o.Z)("div", {
@@ -6047,7 +6047,7 @@ const ia = function(e) {
                 className: "tutorialVirtualMirror__tutorial__zoom__icon"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/zoom.svg",
+                src: "jeeliz.com/images/zoom.svg",
                 alt: "Zoom"
             })), (0,
             o.Z)("div", {
@@ -6094,7 +6094,7 @@ const ia = function(e) {
             var Ga = 1
               , Ha = (0,
             o.Z)("img", {
-                src: "images/search.svg",
+                src: "jeeliz.com/images/search.svg",
                 alt: "Filter"
             })
               , za = (0,
@@ -6104,7 +6104,7 @@ const ia = function(e) {
             }))
               , Qa = (0,
             o.Z)("img", {
-                src: "images/adjust.svg",
+                src: "jeeliz.com/images/adjust.svg",
                 alt: "Adjust"
             })
               , Za = (0,
@@ -6114,7 +6114,7 @@ const ia = function(e) {
             }))
               , Va = (0,
             o.Z)("img", {
-                src: "images/dollar-white.svg",
+                src: "jeeliz.com/images/dollar-white.svg",
                 alt: "Info"
             })
               , Ya = (0,
@@ -6124,7 +6124,7 @@ const ia = function(e) {
             }))
               , Wa = (0,
             o.Z)("img", {
-                src: "images/close-icon.svg",
+                src: "jeeliz.com/images/close-icon.svg",
                 alt: "Close"
             })
               , Ja = (0,
@@ -6235,7 +6235,7 @@ const ia = function(e) {
             });
             var rs = (0,
             o.Z)("img", {
-                src: "images/cross.svg",
+                src: "jeeliz.com/images/cross.svg",
                 alt: "Pass"
             })
               , is = ((0,
@@ -6245,7 +6245,7 @@ const ia = function(e) {
             (0,
             o.Z)("img", {
                 className: "glassesRater__back__button__img",
-                src: "images/undo.png",
+                src: "jeeliz.com/images/undo.png",
                 alt: "Undo"
             }))
               , os = ((0,
@@ -6254,12 +6254,12 @@ const ia = function(e) {
             }),
             (0,
             o.Z)("img", {
-                src: "images/coeur-empty.svg",
+                src: "jeeliz.com/images/coeur-empty.svg",
                 alt: "Like"
             }))
               , as = (0,
             o.Z)("img", {
-                src: "images/camera-icon-jaune.svg",
+                src: "jeeliz.com/images/camera-icon-jaune.svg",
                 alt: "Like"
             })
               , ss = ((0,
@@ -6269,7 +6269,7 @@ const ia = function(e) {
             (0,
             o.Z)("img", {
                 className: "glassesRater__back__button__img",
-                src: "images/angle-left-white.svg",
+                src: "jeeliz.com/images/angle-left-white.svg",
                 alt: "Undo"
             }))
               , ls = ((0,
@@ -6278,12 +6278,12 @@ const ia = function(e) {
             }),
             (0,
             o.Z)("img", {
-                src: "images/coeur-empty.svg",
+                src: "jeeliz.com/images/coeur-empty.svg",
                 alt: "Like"
             }))
               , cs = (0,
             o.Z)("img", {
-                src: "images/camera-icon-jaune.svg",
+                src: "jeeliz.com/images/camera-icon-jaune.svg",
                 alt: "Like"
             })
               , us = ((0,
@@ -6292,7 +6292,7 @@ const ia = function(e) {
             }),
             (0,
             o.Z)("img", {
-                src: "images/angle-right-white.svg",
+                src: "jeeliz.com/images/angle-right-white.svg",
                 alt: "Pass"
             }));
             const ps = function(e) {
@@ -6806,18 +6806,18 @@ const ia = function(e) {
             }(u.Component);
             var vs = (0,
             o.Z)("img", {
-                src: "images/add.svg",
+                src: "jeeliz.com/images/add.svg",
                 alt: ""
             })
               , _s = (0,
             o.Z)("img", {
-                src: "images/angle-right-icon.svg",
+                src: "jeeliz.com/images/angle-right-icon.svg",
                 alt: "",
                 className: "jeelizGlassesSlider__container__button__plusIcon"
             })
               , ys = (0,
             o.Z)("img", {
-                src: "images/angle-left-icon.svg",
+                src: "jeeliz.com/images/angle-left-icon.svg",
                 alt: ""
             });
             const bs = function(e) {
@@ -6981,7 +6981,7 @@ const ia = function(e) {
             })(bs);
             var ws = (0,
             o.Z)("img", {
-                src: "images/camera-switch.svg",
+                src: "jeeliz.com/images/camera-switch.svg",
                 alt: ""
             });
             const xs = function(e) {
@@ -7235,31 +7235,31 @@ const ia = function(e) {
               , Hs = (0,
             o.Z)("img", {
                 className: "picture__img__options__retry__img",
-                src: "images/back-white.svg",
+                src: "jeeliz.com/images/back-white.svg",
                 alt: "Retry"
             })
               , zs = (0,
             o.Z)("img", {
                 className: "picture__img__options__retry__img",
-                src: "images/back.svg",
+                src: "jeeliz.com/images/back.svg",
                 alt: "Retry"
             })
               , Qs = (0,
             o.Z)("img", {
                 className: "picture__img__options__share__img",
-                src: "images/paperplane.svg",
+                src: "jeeliz.com/images/paperplane.svg",
                 alt: "Share"
             })
               , Zs = (0,
             o.Z)("img", {
                 className: "picture__img__options__details__img",
-                src: "images/dollar-white.svg",
+                src: "jeeliz.com/images/dollar-white.svg",
                 alt: "Details"
             })
               , Vs = (0,
             o.Z)("img", {
                 className: "picture__img__options__details__img",
-                src: "images/dollar-notwhite.svg",
+                src: "jeeliz.com/images/dollar-notwhite.svg",
                 alt: "Details"
             });
             const Ys = hn(function(e) {
@@ -7464,7 +7464,7 @@ const ia = function(e) {
             var Js = (0,
             o.Z)("img", {
                 className: "pictureList__placeholder__silhouette",
-                src: "images/women.png",
+                src: "jeeliz.com/images/women.png",
                 alt: ""
             })
               , Ks = (0,
@@ -7480,37 +7480,37 @@ const ia = function(e) {
               , qs = (0,
             o.Z)("img", {
                 className: "picture__img__options__retry__img",
-                src: "images/back-white.svg",
+                src: "jeeliz.com/images/back-white.svg",
                 alt: "Retry"
             })
               , Xs = (0,
             o.Z)("img", {
                 className: "picture__img__options__retry__img",
-                src: "images/back.svg",
+                src: "jeeliz.com/images/back.svg",
                 alt: "Retry"
             })
               , $s = ((0,
             o.Z)("img", {
                 className: "picture__img__options__share__img",
-                src: "images/share-icon-white.svg",
+                src: "jeeliz.com/images/share-icon-white.svg",
                 alt: "Share"
             }),
             (0,
             o.Z)("img", {
                 className: "picture__img__options__share__img",
-                src: "images/paperplane.svg",
+                src: "jeeliz.com/images/paperplane.svg",
                 alt: "Share"
             }))
               , el = (0,
             o.Z)("img", {
                 className: "picture__img__options__details__img",
-                src: "images/dollar-white.svg",
+                src: "jeeliz.com/images/dollar-white.svg",
                 alt: "Details"
             })
               , tl = (0,
             o.Z)("img", {
                 className: "picture__img__options__details__img",
-                src: "images/dollar-notwhite.svg",
+                src: "jeeliz.com/images/dollar-notwhite.svg",
                 alt: "Details"
             });
             const nl = function(e) {
@@ -8014,7 +8014,7 @@ const ia = function(e) {
                     ))
                       , r = this.DOMfieldBody.value.replace(/\r\n|\r|\n/g, "<br/>")
                       , i = void 0;
-                    this.props.isRunPoll ? i = '<div bgcolor="#e2e2e2" style="background-color:#e2e2e2;padding:10px 1px;margin:0"><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="background:ghostwhite;max-width:700px;padding-top:20px;padding-bottom:10px;border-bottom:solid 1px lightgray;"><tbody><tr> <td style="font-family:Helvetica,sans-serif; line-height:13px; color:rgb(12, 127, 194); font-size: 15pt; text-align:center; font-weight:bold" ><a href="https://www.jeeliz.com/sunglasses" target="_blank"> <img style="width: 300px;" src="https://poll.jeeliz.com/static/images/LOGO_JEELIZ_BETA.png" alt="JEELIZ"></a> </td></tr></tbody></table><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="width:100%;align:center;border: 0;max-width:700px;min-height: 300px;"><tbody><tr> <td style="font-family:Helvetica,sans-serif; line-height:1; color:rgb(12, 127, 194); font-size: 12pt; text-align:center; background: white; padding: 10px; margin-top: 5px; color: #444;" > <img style="max-width: 200px;" src=' + n + ' alt="A picture of me wearing cool glasses"/> </td></tr><tr> <td style="font-family:Helvetica,sans-serif; line-height:1; color:rgb(12, 127, 194); font-size: 12pt; text-align:left; background: white; padding: 20px; margin-top: 30px; color: #444;" >' + r + '</td></tr></tbody></table><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="max-width:700px;"><tbody><tr> <td style="font-family:Helvetica,sans-serif; line-height:1; color:rgb(12, 127, 194); font-size: 12pt; text-align:center; background: white; padding: 20px; padding-bottom: 80px; color: #444;" > <buttonstyle="border: 0; padding: 0;background: none;" > <a href=' + this.props.url + ' target="_blank"style="width: 180px;height: 60px;font-size: 14pt;color: white;background: rgb(12, 127, 194);border-radius: 3px;text-decoration: none;padding: 20px 40px;cursor: pointer;" > Go </a> </button> </td></tr></tbody></table><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="max-width:700px;"><tbody><tr> <td style="font-family:Helvetica,sans-serif; line-height:1; color:rgb(12, 127, 194); font-size: 10pt; text-align:center; background: #444; padding: 5px 0; color: #444;" > <div> <a style="margin-right:20px;width:50%;color: white;font-size: 9pt;font-weight: 200;" href="http://www.jeeliz.com/sunglasses" target="_blank">Try Sunglasses</a> <a style="margin-left:20px;width:50%;color: white;font-size: 9pt;font-weight: 200;" href="http://dhruvpandit46.github.io/Portfolio/" target="_blank">About Jeeliz</a> </div></td></tr></tbody></table></div>' : (console.log(this.props.url),
+                    this.props.isRunPoll ? i = '<div bgcolor="#e2e2e2" style="background-color:#e2e2e2;padding:10px 1px;margin:0"><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="background:ghostwhite;max-width:700px;padding-top:20px;padding-bottom:10px;border-bottom:solid 1px lightgray;"><tbody><tr> <td style="font-family:Helvetica,sans-serif; line-height:13px; color:rgb(12, 127, 194); font-size: 15pt; text-align:center; font-weight:bold" ><a href="https://www.jeeliz.com/sunglasses" target="_blank"> <img style="width: 300px;" src="https://poll.jeeliz.com/static/images/LOGO_JEELIZ_BETA.png" alt="JEELIZ"></a> </td></tr></tbody></table><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="width:100%;align:center;border: 0;max-width:700px;min-height: 300px;"><tbody><tr> <td style="font-family:Helvetica,sans-serif; line-height:1; color:rgb(12, 127, 194); font-size: 12pt; text-align:center; background: white; padding: 10px; margin-top: 5px; color: #444;" > <img style="max-width: 200px;" src=' + n + ' alt="A picture of me wearing cool glasses"/> </td></tr><tr> <td style="font-family:Helvetica,sans-serif; line-height:1; color:rgb(12, 127, 194); font-size: 12pt; text-align:left; background: white; padding: 20px; margin-top: 30px; color: #444;" >' + r + '</td></tr></tbody></table><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="max-width:700px;"><tbody><tr> <td style="font-family:Helvetica,sans-serif; line-height:1; color:rgb(12, 127, 194); font-size: 12pt; text-align:center; background: white; padding: 20px; padding-bottom: 80px; color: #444;" > <buttonstyle="border: 0; padding: 0;background: none;" > <a href=' + this.props.url + ' target="_blank"style="width: 180px;height: 60px;font-size: 14pt;color: white;background: rgb(12, 127, 194);border-radius: 3px;text-decoration: none;padding: 20px 40px;cursor: pointer;" > Go </a> </button> </td></tr></tbody></table><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="max-width:700px;"><tbody><tr> <td style="font-family:Helvetica,sans-serif; line-height:1; color:rgb(12, 127, 194); font-size: 10pt; text-align:center; background: #444; padding: 5px 0; color: #444;" > <div> <a style="margin-right:20px;width:50%;color: white;font-size: 9pt;font-weight: 200;" href="http://www.jeeliz.com/sunglasses" target="_blank">Try Sunglasses</a> <a style="margin-left:20px;width:50%;color: white;font-size: 9pt;font-weight: 200;" href="https://dhruvpandit46.github.io/Portfolio/" target="_blank">About Jeeliz</a> </div></td></tr></tbody></table></div>' : (console.log(this.props.url),
                     i = '<div bgcolor="#e2e2e2" style="background-color:#e2e2e2;padding:10px 1px;margin:0"><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="background:ghostwhite;max-width:700px;padding-top:20px;padding-bottom:10px;border-bottom:solid 1px lightgray;"><tbody><tr> <td style="font-family:Helvetica,sans-serif; line-height:13px; color:rgb(12, 127, 194); font-size: 15pt; text-align:center; font-weight:bold" ><a href="https://www.jeeliz.com/sunglasses" target="_blank"> <img style="width: 300px;" src="https://poll.jeeliz.com/static/images/LOGO_JEELIZ_BETA.png" alt="JEELIZ"></a> </td></tr></tbody></table><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="width:100%;align:center;border: 0;max-width:700px;min-height: 300px;"><tbody><tr> <td style="font-family:Helvetica,sans-serif; line-height:1; color:rgb(12, 127, 194); font-size: 12pt; text-align:center; background: white; padding: 10px; margin-top: 5px; color: #444;" > <img style="max-width: 400px;" src=' + this.props.url + ' alt="A picture of me wearing cool glasses"/> </td></tr><tr> <td style="font-family:Helvetica,sans-serif; line-height:1; color:rgb(12, 127, 194); font-size: 12pt; text-align:left; background: white; padding: 20px; margin-top: 30px; color: #444;" >' + r + '</td></tr></tbody></table><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="max-width:700px;"><tbody><tr> <td style="font-family:Helvetica,sans-serif; line-height:1; color:rgb(12, 127, 194); font-size: 10pt; text-align:center; background: #444; padding: 5px 0; color: #444;" > <div> <a style="margin-right:20px;width:50%;color: white;font-size: 9pt;font-weight: 200;" href="http://www.jeeliz.com/sunglasses" target="_blank">Try Sunglasses</a> <a style="margin-left:20px;width:50%;color: white;font-size: 9pt;font-weight: 200;" href="https://dhruvpandit46.github.io/Portfolio/" target="_blank">About Jeeliz</a> </div></td></tr></tbody></table></div>'),
                     this.toEmail = this.DOMfieldTo.value;
                     var o = s()({
@@ -8194,7 +8194,7 @@ const ia = function(e) {
             }, void 0, (0,
             o.Z)("img", {
                 className: "runPoll__container__create__container__pictures__pictureContainer__container__imgContainer__checkmarkContainer__checkmark__img",
-                src: "images/checkmark.svg",
+                src: "jeeliz.com/images/checkmark.svg",
                 alt: "Check"
             }))
               , Ll = (0,
@@ -8303,7 +8303,7 @@ const ia = function(e) {
                 className: "runPoll__container__share__shareButtons__facebook__container__imgContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/facebook.png",
+                src: "jeeliz.com/images/facebook.png",
                 alt: "Facebook"
             })), (0,
             o.Z)("div", {
@@ -8344,12 +8344,12 @@ const ia = function(e) {
             }))
               , ec = (0,
             o.Z)("img", {
-                src: "images/screenshot5cartoon.jpg",
+                src: "jeeliz.com/images/screenshot5cartoon.jpg",
                 alt: "Click on the top right button to access your polls"
             })
               , tc = (0,
             o.Z)("img", {
-                src: "images/capturebis.jpg",
+                src: "jeeliz.com/images/capturebis.jpg",
                 alt: "Click on the top right button to access your polls"
             })
               , nc = (0,
@@ -9316,21 +9316,21 @@ const ia = function(e) {
                 className: "step1"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/tuto-poll-step1.png",
+                src: "jeeliz.com/images/tuto-poll-step1.png",
                 alt: "Like a frame"
             })), (0,
             o.Z)("div", {
                 className: "step2"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/tuto-poll-step2.png",
+                src: "jeeliz.com/images/tuto-poll-step2.png",
                 alt: "Run a Poll"
             })), (0,
             o.Z)("div", {
                 className: "step3"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/tuto-poll-step3.png",
+                src: "jeeliz.com/images/tuto-poll-step3.png",
                 alt: "Get Feedback"
             })))
               , xc = (0,
@@ -9432,7 +9432,7 @@ const ia = function(e) {
                 className: "header__titles__logo"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/LOGO_JEELIZ_BETA.png",
+                src: "jeeliz.com/images/LOGO_JEELIZ_BETA.png",
                 alt: "Jeeliz"
             })), (0,
             o.Z)("div", {
@@ -9458,7 +9458,7 @@ const ia = function(e) {
                 className: "header__pollsContainer__polls__content__icon"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/thinking.png",
+                src: "jeeliz.com/images/thinking.png",
                 alt: ""
             })), (0,
             o.Z)("div", {
@@ -9650,7 +9650,7 @@ const ia = function(e) {
             }))
               , Hc = (0,
             o.Z)("img", {
-                src: "images/star.svg",
+                src: "jeeliz.com/images/star.svg",
                 alt: "stars"
             });
             const zc = hn((function(e) {
@@ -9724,7 +9724,7 @@ const ia = function(e) {
                 className: "productDetails__content__footer__robotContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/robot.svg",
+                src: "jeeliz.com/images/robot.svg",
                 alt: "Robot"
             }))
               , Wc = (0,
@@ -10470,7 +10470,7 @@ const ia = function(e) {
             }, void 0, (0,
             o.Z)("img", {
                 className: "selectionFilterBrandCollection__selectBox__item__icon__image",
-                src: "images/add-white.svg",
+                src: "jeeliz.com/images/add-white.svg",
                 alt: "Add"
             }))
               , Pu = (0,
@@ -10486,7 +10486,7 @@ const ia = function(e) {
             }, void 0, (0,
             o.Z)("img", {
                 className: "selectionFilterBrandCollection__selectBox__item__icon__image",
-                src: "images/add-white.svg",
+                src: "jeeliz.com/images/add-white.svg",
                 alt: "Add"
             }));
             const Ou = function(e) {
@@ -10972,7 +10972,7 @@ const ia = function(e) {
                             textKey: "Selection.color.brown"
                         }, {
                             value: "havana",
-                            image: "images/filters/frameColors/havanna.png",
+                            image: "jeeliz.com/images/filters/frameColors/havanna.png",
                             textKey: "Selection.color.havana"
                         }, {
                             value: "blue",
@@ -11028,11 +11028,11 @@ const ia = function(e) {
                             textKey: "Selection.color.yellow"
                         }, {
                             value: "copper",
-                            image: "images/copper.jpg",
+                            image: "jeeliz.com/images/copper.jpg",
                             textKey: "Selection.color.copper"
                         }, {
                             value: "gunMetal",
-                            image: "images/metal.jpg",
+                            image: "jeeliz.com/images/metal.jpg",
                             textKey: "Selection.color.gunMetal"
                         }]
                     })), (0,
@@ -11115,7 +11115,7 @@ const ia = function(e) {
                             textKey: "Selection.color.yellow"
                         }, {
                             value: "copper",
-                            image: "images/copper.jpg",
+                            image: "jeeliz.com/images/copper.jpg",
                             textKey: "Selection.color.copper"
                         }]
                     })), (0,
@@ -11226,7 +11226,7 @@ const ia = function(e) {
             })
               , Xu = (0,
             o.Z)("img", {
-                src: "images/search.svg",
+                src: "jeeliz.com/images/search.svg",
                 alt: "Filters"
             });
             const $u = function(e) {
@@ -11606,7 +11606,7 @@ const ia = function(e) {
                 className: "productSummary__titleSeeMore__seeMore__container__img"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/dollar-white.svg",
+                src: "jeeliz.com/images/dollar-white.svg",
                 alt: "Price"
             })), (0,
             o.Z)("p", {}, void 0, (0,
@@ -11906,21 +11906,21 @@ const ia = function(e) {
                 className: "hintMobile__container__swipe__arrowLeftContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/fleche.png",
+                src: "jeeliz.com/images/fleche.png",
                 alt: ""
             })), (0,
             o.Z)("div", {
                 className: "hintMobile__container__swipe__likeButton"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/touch.png",
+                src: "jeeliz.com/images/touch.png",
                 alt: ""
             })), (0,
             o.Z)("div", {
                 className: "hintMobile__container__swipe__arrowRightContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/fleche.png",
+                src: "jeeliz.com/images/fleche.png",
                 alt: ""
             })))
               , bp = (0,
@@ -11931,14 +11931,14 @@ const ia = function(e) {
                 className: "hintMobile__container__likeNope__nopeContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/examplenope.jpg",
+                src: "jeeliz.com/images/examplenope.jpg",
                 alt: ""
             })), (0,
             o.Z)("div", {
                 className: "hintMobile__container__likeNope__likeContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/examplelike.jpg",
+                src: "jeeliz.com/images/examplelike.jpg",
                 alt: ""
             })));
             const Ap = function(e) {
@@ -12038,7 +12038,7 @@ const ia = function(e) {
                 className: "quickShare__shareSection__facebook__button__iconContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/facebook.png",
+                src: "jeeliz.com/images/facebook.png",
                 alt: "",
                 className: "quickShare__shareSection__facebook__button__iconContainer__icon"
             }))
@@ -12051,7 +12051,7 @@ const ia = function(e) {
                 className: "quickShare__shareSection__twitter__button__iconContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/twitter-white.svg",
+                src: "jeeliz.com/images/twitter-white.svg",
                 alt: "",
                 className: "quickShare__shareSection__twitter__button__iconContainer__icon"
             }))
@@ -12064,7 +12064,7 @@ const ia = function(e) {
                 className: "quickShare__shareSection__mail__button__iconContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/mail-icon-white.svg",
+                src: "jeeliz.com/images/mail-icon-white.svg",
                 alt: "",
                 className: "quickShare__shareSection__mail__button__iconContainer__icon"
             }))
@@ -12355,12 +12355,12 @@ const ia = function(e) {
             })(jp);
             var Gp = (0,
             o.Z)("img", {
-                src: "images/angle-left-icon.svg",
+                src: "jeeliz.com/images/angle-left-icon.svg",
                 alt: ""
             })
               , Hp = (0,
             o.Z)("img", {
-                src: "images/angle-right-icon.svg",
+                src: "jeeliz.com/images/angle-right-icon.svg",
                 alt: ""
             });
             const zp = function(e) {
@@ -12539,7 +12539,7 @@ const ia = function(e) {
                 className: "modalfuckedup-container"
             }, void 0, (0,
             o.Z)("img", {
-                src: "images/robot.svg",
+                src: "jeeliz.com/images/robot.svg",
                 alt: "Oops"
             }), (0,
             o.Z)("div", {
@@ -12855,7 +12855,7 @@ const ia = function(e) {
             e.exports = {
                 googleAnalyticsID: "UA-78159065-1",
                 googleAnalyticsDebug: !1,
-                appProdUrl: "https://localhost:8082/src/index.html",
+                appProdUrl: "https://dhruvpandit46.github.io/Glasses/",
                 doodleServiceURL: "https://poll.jeeliz.com",
                 glassesDBServiceURL: "https://glassesdb.jeeliz.com",
                 staticServiceURL: "https://appstatic.jeeliz.com/jeefit",
@@ -12897,8 +12897,8 @@ const ia = function(e) {
                 isShowSettingsFilter: !1,
                 isStampSlideImage: !0,
                 stampMinDisplacement: .1,
-                stampLike: "images/sticker_like.png",
-                stampDislike: "images/sticker_nope.png",
+                stampLike: "jeeliz.com/images/sticker_like.png",
+                stampDislike: "jeeliz.com/images/sticker_nope.png",
                 stampLikeRelativeWidth: .4,
                 stampDislikeRelativeWidth: .4,
                 stampLikeTopOffset: 20,
