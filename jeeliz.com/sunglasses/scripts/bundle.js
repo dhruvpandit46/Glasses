@@ -4875,7 +4875,7 @@
                 className: "welcomePage__logo"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/LOGO_JEELIZ_BETA.png",
+                src: "jeeliz.com/sunglasses/images/LOGO_JEELIZ_BETA.png",
                 alt: "Jeeliz"
             }))
               , Eo = (0,
@@ -4883,7 +4883,7 @@
                 className: "welcomePage__photo"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/affiche2.jpg",
+                src: "jeeliz.com/sunglasses/images/affiche2.jpg",
                 alt: ""
             }))
               , ko = (0,
@@ -4891,7 +4891,7 @@
                 className: "welcomePage__logo"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/LOGO_JEELIZ_BETA.png",
+                src: "jeeliz.com/sunglasses/images/LOGO_JEELIZ_BETA.png",
                 alt: "Jaiswal"
             }))
               , Mo = (0,
@@ -4912,7 +4912,7 @@
                 className: "welcomePage__intro__title__container__amazonContainer__amazon"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/amazon-logo-full.jpg",
+                src: "jeeliz.com/sunglasses/images/amazon-logo-full.jpg",
                 alt: ""
             })))
               , Bo = (0,
@@ -5014,7 +5014,7 @@ t.prototype.componentDidMount = function() {
             }, void 0, (0,
             o.Z)("div", {}, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/JEELIZ_BETA.png",
+                src: "jeeliz.com/sunglasses/images/JEELIZ_BETA.png",
                 alt: "JEELIZ"
             })))
               , Ro = (0,
@@ -5023,7 +5023,7 @@ t.prototype.componentDidMount = function() {
             }, void 0, (0,
             o.Z)("img", {
                 className: "navigationMobile__tabIcon navigationMobileContainer__navigation__tryGlasses__tabContainer__icon",
-                src: "jeeliz.com/images/glasses-icon.svg",
+                src: "jeeliz.com/sunglasses/images/glasses-icon.svg",
                 alt: "Link to Virtual Mirror tab"
             }), (0,
             o.Z)("div", {
@@ -5046,7 +5046,7 @@ t.prototype.componentDidMount = function() {
             })
               , Uo = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/share.png",
+                src: "jeeliz.com/sunglasses/images/share.png",
                 alt: "Link to bestPrices tab",
                 className: "navigationMobile__tabIcon navigationMobileContainer__navigation__polls__tabContainer__icon"
             })
@@ -5284,7 +5284,7 @@ t.prototype.componentDidMount = function() {
                 className: "confirmDeletePoll__message__imgContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/robot.svg",
+                src: "jeeliz.com/sunglasses/images/robot.svg",
                 alt: "Asks Jeebot."
             })))
               , Xo = (0,
@@ -5399,7 +5399,7 @@ const ia = function(e) {
             var oa = 0
               , aa = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/coeur-empty.svg",
+                src: "jeeliz.com/sunglasses/images/coeur-empty.svg",
                 alt: "Likes"
             })
               , sa = (0,
@@ -5426,22 +5426,22 @@ const ia = function(e) {
             }))
               , pa = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/smiley-awesome.svg",
+                src: "jeeliz.com/sunglasses/images/smiley-awesome.svg",
                 alt: "Awesome"
             })
               , da = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/smiley-great.svg",
+                src: "jeeliz.com/sunglasses/images/smiley-great.svg",
                 alt: "Great"
             })
               , fa = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/smiley-nope.svg",
+                src: "jeeliz.com/sunglasses/images/smiley-nope.svg",
                 alt: "Nope"
             })
               , ha = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/smiley-soso.svg",
+                src: "jeeliz.com/sunglasses/images/smiley-soso.svg",
                 alt: "So so"
             })
               , ga = (0,
@@ -5490,13 +5490,13 @@ const ia = function(e) {
               , Aa = (0,
             o.Z)("img", {
                 className: "poll__buttonOpenPoll__close",
-                src: "jeeliz.com/images/minus.svg",
+                src: "jeeliz.com/sunglasses/images/minus.svg",
                 alt: "See less"
             })
               , wa = (0,
             o.Z)("img", {
                 className: "poll__buttonOpenPoll__open",
-                src: "jeeliz.com/images/eye.svg",
+                src: "jeeliz.com/sunglasses/images/eye.svg",
                 alt: "See more"
             })
               , xa = (0,
@@ -5881,7 +5881,7 @@ const ia = function(e) {
                         className: "poll__buttonDeletePoll"
                     }, void 0, p().createElement("img", {
                         className: "poll__buttonDeletePoll__image",
-                        src: "jeeliz.com/images/delete.svg",
+                        src: "jeeliz.com/sunglasses/images/delete.svg",
                         alt: "Delete",
                         ref: function(t) {
                             e.DOMdeleteButton = t
@@ -6023,14 +6023,14 @@ const ia = function(e) {
                 className: "tutorialVirtualMirror__tutorial__swipe__icons__vertical"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/swipe-leftright.svg",
+                src: "jeeliz.com/sunglasses/images/swipe-leftright.svg",
                 alt: "Swipe Vertically"
             })), (0,
             o.Z)("div", {
                 className: "tutorialVirtualMirror__tutorial__swipe__icons__horizontal"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/swipe-leftright.svg",
+                src: "jeeliz.com/sunglasses/images/swipe-leftright.svg",
                 alt: "Swipe Horizontally"
             }))), (0,
             o.Z)("div", {
@@ -6047,7 +6047,7 @@ const ia = function(e) {
                 className: "tutorialVirtualMirror__tutorial__zoom__icon"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/zoom.svg",
+                src: "jeeliz.com/sunglasses/images/zoom.svg",
                 alt: "Zoom"
             })), (0,
             o.Z)("div", {
@@ -6094,7 +6094,7 @@ const ia = function(e) {
             var Ga = 1
               , Ha = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/search.svg",
+                src: "jeeliz.com/sunglasses/images/search.svg",
                 alt: "Filter"
             })
               , za = (0,
@@ -6104,7 +6104,7 @@ const ia = function(e) {
             }))
               , Qa = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/adjust.svg",
+                src: "jeeliz.com/sunglasses/images/adjust.svg",
                 alt: "Adjust"
             })
               , Za = (0,
@@ -6114,7 +6114,7 @@ const ia = function(e) {
             }))
               , Va = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/dollar-white.svg",
+                src: "jeeliz.com/sunglasses/images/dollar-white.svg",
                 alt: "Info"
             })
               , Ya = (0,
@@ -6124,7 +6124,7 @@ const ia = function(e) {
             }))
               , Wa = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/close-icon.svg",
+                src: "jeeliz.com/sunglasses/images/close-icon.svg",
                 alt: "Close"
             })
               , Ja = (0,
@@ -6235,7 +6235,7 @@ const ia = function(e) {
             });
             var rs = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/cross.svg",
+                src: "jeeliz.com/sunglasses/images/cross.svg",
                 alt: "Pass"
             })
               , is = ((0,
@@ -6245,7 +6245,7 @@ const ia = function(e) {
             (0,
             o.Z)("img", {
                 className: "glassesRater__back__button__img",
-                src: "jeeliz.com/images/undo.png",
+                src: "jeeliz.com/sunglasses/images/undo.png",
                 alt: "Undo"
             }))
               , os = ((0,
@@ -6254,12 +6254,12 @@ const ia = function(e) {
             }),
             (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/coeur-empty.svg",
+                src: "jeeliz.com/sunglasses/images/coeur-empty.svg",
                 alt: "Like"
             }))
               , as = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/camera-icon-jaune.svg",
+                src: "jeeliz.com/sunglasses/images/camera-icon-jaune.svg",
                 alt: "Like"
             })
               , ss = ((0,
@@ -6269,7 +6269,7 @@ const ia = function(e) {
             (0,
             o.Z)("img", {
                 className: "glassesRater__back__button__img",
-                src: "jeeliz.com/images/angle-left-white.svg",
+                src: "jeeliz.com/sunglasses/images/angle-left-white.svg",
                 alt: "Undo"
             }))
               , ls = ((0,
@@ -6278,12 +6278,12 @@ const ia = function(e) {
             }),
             (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/coeur-empty.svg",
+                src: "jeeliz.com/sunglasses/images/coeur-empty.svg",
                 alt: "Like"
             }))
               , cs = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/camera-icon-jaune.svg",
+                src: "jeeliz.com/sunglasses/images/camera-icon-jaune.svg",
                 alt: "Like"
             })
               , us = ((0,
@@ -6292,7 +6292,7 @@ const ia = function(e) {
             }),
             (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/angle-right-white.svg",
+                src: "jeeliz.com/sunglasses/images/angle-right-white.svg",
                 alt: "Pass"
             }));
             const ps = function(e) {
@@ -6806,18 +6806,18 @@ const ia = function(e) {
             }(u.Component);
             var vs = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/add.svg",
+                src: "jeeliz.com/sunglasses/images/add.svg",
                 alt: ""
             })
               , _s = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/angle-right-icon.svg",
+                src: "jeeliz.com/sunglasses/images/angle-right-icon.svg",
                 alt: "",
                 className: "jeelizGlassesSlider__container__button__plusIcon"
             })
               , ys = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/angle-left-icon.svg",
+                src: "jeeliz.com/sunglasses/images/angle-left-icon.svg",
                 alt: ""
             });
             const bs = function(e) {
@@ -6981,7 +6981,7 @@ const ia = function(e) {
             })(bs);
             var ws = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/camera-switch.svg",
+                src: "jeeliz.com/sunglasses/images/camera-switch.svg",
                 alt: ""
             });
             const xs = function(e) {
@@ -7235,31 +7235,31 @@ const ia = function(e) {
               , Hs = (0,
             o.Z)("img", {
                 className: "picture__img__options__retry__img",
-                src: "jeeliz.com/images/back-white.svg",
+                src: "jeeliz.com/sunglasses/images/back-white.svg",
                 alt: "Retry"
             })
               , zs = (0,
             o.Z)("img", {
                 className: "picture__img__options__retry__img",
-                src: "jeeliz.com/images/back.svg",
+                src: "jeeliz.com/sunglasses/images/back.svg",
                 alt: "Retry"
             })
               , Qs = (0,
             o.Z)("img", {
                 className: "picture__img__options__share__img",
-                src: "jeeliz.com/images/paperplane.svg",
+                src: "jeeliz.com/sunglasses/images/paperplane.svg",
                 alt: "Share"
             })
               , Zs = (0,
             o.Z)("img", {
                 className: "picture__img__options__details__img",
-                src: "jeeliz.com/images/dollar-white.svg",
+                src: "jeeliz.com/sunglasses/images/dollar-white.svg",
                 alt: "Details"
             })
               , Vs = (0,
             o.Z)("img", {
                 className: "picture__img__options__details__img",
-                src: "jeeliz.com/images/dollar-notwhite.svg",
+                src: "jeeliz.com/sunglasses/images/dollar-notwhite.svg",
                 alt: "Details"
             });
             const Ys = hn(function(e) {
@@ -7464,7 +7464,7 @@ const ia = function(e) {
             var Js = (0,
             o.Z)("img", {
                 className: "pictureList__placeholder__silhouette",
-                src: "jeeliz.com/images/women.png",
+                src: "jeeliz.com/sunglasses/images/women.png",
                 alt: ""
             })
               , Ks = (0,
@@ -7480,37 +7480,37 @@ const ia = function(e) {
               , qs = (0,
             o.Z)("img", {
                 className: "picture__img__options__retry__img",
-                src: "jeeliz.com/images/back-white.svg",
+                src: "jeeliz.com/sunglasses/images/back-white.svg",
                 alt: "Retry"
             })
               , Xs = (0,
             o.Z)("img", {
                 className: "picture__img__options__retry__img",
-                src: "jeeliz.com/images/back.svg",
+                src: "jeeliz.com/sunglasses/images/back.svg",
                 alt: "Retry"
             })
               , $s = ((0,
             o.Z)("img", {
                 className: "picture__img__options__share__img",
-                src: "jeeliz.com/images/share-icon-white.svg",
+                src: "jeeliz.com/sunglasses/images/share-icon-white.svg",
                 alt: "Share"
             }),
             (0,
             o.Z)("img", {
                 className: "picture__img__options__share__img",
-                src: "jeeliz.com/images/paperplane.svg",
+                src: "jeeliz.com/sunglasses/images/paperplane.svg",
                 alt: "Share"
             }))
               , el = (0,
             o.Z)("img", {
                 className: "picture__img__options__details__img",
-                src: "jeeliz.com/images/dollar-white.svg",
+                src: "jeeliz.com/sunglasses/images/dollar-white.svg",
                 alt: "Details"
             })
               , tl = (0,
             o.Z)("img", {
                 className: "picture__img__options__details__img",
-                src: "jeeliz.com/images/dollar-notwhite.svg",
+                src: "jeeliz.com/sunglasses/images/dollar-notwhite.svg",
                 alt: "Details"
             });
             const nl = function(e) {
@@ -8194,7 +8194,7 @@ const ia = function(e) {
             }, void 0, (0,
             o.Z)("img", {
                 className: "runPoll__container__create__container__pictures__pictureContainer__container__imgContainer__checkmarkContainer__checkmark__img",
-                src: "jeeliz.com/images/checkmark.svg",
+                src: "jeeliz.com/sunglasses/images/checkmark.svg",
                 alt: "Check"
             }))
               , Ll = (0,
@@ -8303,7 +8303,7 @@ const ia = function(e) {
                 className: "runPoll__container__share__shareButtons__facebook__container__imgContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/facebook.png",
+                src: "jeeliz.com/sunglasses/images/facebook.png",
                 alt: "Facebook"
             })), (0,
             o.Z)("div", {
@@ -8344,12 +8344,12 @@ const ia = function(e) {
             }))
               , ec = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/screenshot5cartoon.jpg",
+                src: "jeeliz.com/sunglasses/images/screenshot5cartoon.jpg",
                 alt: "Click on the top right button to access your polls"
             })
               , tc = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/capturebis.jpg",
+                src: "jeeliz.com/sunglasses/images/capturebis.jpg",
                 alt: "Click on the top right button to access your polls"
             })
               , nc = (0,
@@ -9316,21 +9316,21 @@ const ia = function(e) {
                 className: "step1"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/tuto-poll-step1.png",
+                src: "jeeliz.com/sunglasses/images/tuto-poll-step1.png",
                 alt: "Like a frame"
             })), (0,
             o.Z)("div", {
                 className: "step2"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/tuto-poll-step2.png",
+                src: "jeeliz.com/sunglasses/images/tuto-poll-step2.png",
                 alt: "Run a Poll"
             })), (0,
             o.Z)("div", {
                 className: "step3"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/tuto-poll-step3.png",
+                src: "jeeliz.com/sunglasses/images/tuto-poll-step3.png",
                 alt: "Get Feedback"
             })))
               , xc = (0,
@@ -9432,7 +9432,7 @@ const ia = function(e) {
                 className: "header__titles__logo"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/LOGO_JEELIZ_BETA.png",
+                src: "jeeliz.com/sunglasses/images/LOGO_JEELIZ_BETA.png",
                 alt: "Jeeliz"
             })), (0,
             o.Z)("div", {
@@ -9458,7 +9458,7 @@ const ia = function(e) {
                 className: "header__pollsContainer__polls__content__icon"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/thinking.png",
+                src: "jeeliz.com/sunglasses/images/thinking.png",
                 alt: ""
             })), (0,
             o.Z)("div", {
@@ -9650,7 +9650,7 @@ const ia = function(e) {
             }))
               , Hc = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/star.svg",
+                src: "jeeliz.com/sunglasses/images/star.svg",
                 alt: "stars"
             });
             const zc = hn((function(e) {
@@ -9724,7 +9724,7 @@ const ia = function(e) {
                 className: "productDetails__content__footer__robotContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/robot.svg",
+                src: "jeeliz.com/sunglasses/images/robot.svg",
                 alt: "Robot"
             }))
               , Wc = (0,
@@ -10470,7 +10470,7 @@ const ia = function(e) {
             }, void 0, (0,
             o.Z)("img", {
                 className: "selectionFilterBrandCollection__selectBox__item__icon__image",
-                src: "jeeliz.com/images/add-white.svg",
+                src: "jeeliz.com/sunglasses/images/add-white.svg",
                 alt: "Add"
             }))
               , Pu = (0,
@@ -10486,7 +10486,7 @@ const ia = function(e) {
             }, void 0, (0,
             o.Z)("img", {
                 className: "selectionFilterBrandCollection__selectBox__item__icon__image",
-                src: "jeeliz.com/images/add-white.svg",
+                src: "jeeliz.com/sunglasses/images/add-white.svg",
                 alt: "Add"
             }));
             const Ou = function(e) {
@@ -10972,7 +10972,7 @@ const ia = function(e) {
                             textKey: "Selection.color.brown"
                         }, {
                             value: "havana",
-                            image: "jeeliz.com/images/filters/frameColors/havanna.png",
+                            image: "jeeliz.com/sunglasses/images/filters/frameColors/havanna.png",
                             textKey: "Selection.color.havana"
                         }, {
                             value: "blue",
@@ -11028,11 +11028,11 @@ const ia = function(e) {
                             textKey: "Selection.color.yellow"
                         }, {
                             value: "copper",
-                            image: "jeeliz.com/images/copper.jpg",
+                            image: "jeeliz.com/sunglasses/images/copper.jpg",
                             textKey: "Selection.color.copper"
                         }, {
                             value: "gunMetal",
-                            image: "jeeliz.com/images/metal.jpg",
+                            image: "jeeliz.com/sunglasses/images/metal.jpg",
                             textKey: "Selection.color.gunMetal"
                         }]
                     })), (0,
@@ -11115,7 +11115,7 @@ const ia = function(e) {
                             textKey: "Selection.color.yellow"
                         }, {
                             value: "copper",
-                            image: "jeeliz.com/images/copper.jpg",
+                            image: "jeeliz.com/sunglasses/images/copper.jpg",
                             textKey: "Selection.color.copper"
                         }]
                     })), (0,
@@ -11226,7 +11226,7 @@ const ia = function(e) {
             })
               , Xu = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/search.svg",
+                src: "jeeliz.com/sunglasses/images/search.svg",
                 alt: "Filters"
             });
             const $u = function(e) {
@@ -11606,7 +11606,7 @@ const ia = function(e) {
                 className: "productSummary__titleSeeMore__seeMore__container__img"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/dollar-white.svg",
+                src: "jeeliz.com/sunglasses/images/dollar-white.svg",
                 alt: "Price"
             })), (0,
             o.Z)("p", {}, void 0, (0,
@@ -11906,21 +11906,21 @@ const ia = function(e) {
                 className: "hintMobile__container__swipe__arrowLeftContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/fleche.png",
+                src: "jeeliz.com/sunglasses/images/fleche.png",
                 alt: ""
             })), (0,
             o.Z)("div", {
                 className: "hintMobile__container__swipe__likeButton"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/touch.png",
+                src: "jeeliz.com/sunglasses/images/touch.png",
                 alt: ""
             })), (0,
             o.Z)("div", {
                 className: "hintMobile__container__swipe__arrowRightContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/fleche.png",
+                src: "jeeliz.com/sunglasses/images/fleche.png",
                 alt: ""
             })))
               , bp = (0,
@@ -11931,14 +11931,14 @@ const ia = function(e) {
                 className: "hintMobile__container__likeNope__nopeContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/examplenope.jpg",
+                src: "jeeliz.com/sunglasses/images/examplenope.jpg",
                 alt: ""
             })), (0,
             o.Z)("div", {
                 className: "hintMobile__container__likeNope__likeContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/examplelike.jpg",
+                src: "jeeliz.com/sunglasses/images/examplelike.jpg",
                 alt: ""
             })));
             const Ap = function(e) {
@@ -12038,7 +12038,7 @@ const ia = function(e) {
                 className: "quickShare__shareSection__facebook__button__iconContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/facebook.png",
+                src: "jeeliz.com/sunglasses/images/facebook.png",
                 alt: "",
                 className: "quickShare__shareSection__facebook__button__iconContainer__icon"
             }))
@@ -12051,7 +12051,7 @@ const ia = function(e) {
                 className: "quickShare__shareSection__twitter__button__iconContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/twitter-white.svg",
+                src: "jeeliz.com/sunglasses/images/twitter-white.svg",
                 alt: "",
                 className: "quickShare__shareSection__twitter__button__iconContainer__icon"
             }))
@@ -12064,7 +12064,7 @@ const ia = function(e) {
                 className: "quickShare__shareSection__mail__button__iconContainer"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/mail-icon-white.svg",
+                src: "jeeliz.com/sunglasses/images/mail-icon-white.svg",
                 alt: "",
                 className: "quickShare__shareSection__mail__button__iconContainer__icon"
             }))
@@ -12355,12 +12355,12 @@ const ia = function(e) {
             })(jp);
             var Gp = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/angle-left-icon.svg",
+                src: "jeeliz.com/sunglasses/images/angle-left-icon.svg",
                 alt: ""
             })
               , Hp = (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/angle-right-icon.svg",
+                src: "jeeliz.com/sunglasses/images/angle-right-icon.svg",
                 alt: ""
             });
             const zp = function(e) {
@@ -12539,7 +12539,7 @@ const ia = function(e) {
                 className: "modalfuckedup-container"
             }, void 0, (0,
             o.Z)("img", {
-                src: "jeeliz.com/images/robot.svg",
+                src: "jeeliz.com/sunglasses/images/robot.svg",
                 alt: "Oops"
             }), (0,
             o.Z)("div", {
@@ -12897,8 +12897,8 @@ const ia = function(e) {
                 isShowSettingsFilter: !1,
                 isStampSlideImage: !0,
                 stampMinDisplacement: .1,
-                stampLike: "jeeliz.com/images/sticker_like.png",
-                stampDislike: "jeeliz.com/images/sticker_nope.png",
+                stampLike: "jeeliz.com/sunglasses/images/sticker_like.png",
+                stampDislike: "jeeliz.com/sunglasses/images/sticker_nope.png",
                 stampLikeRelativeWidth: .4,
                 stampDislikeRelativeWidth: .4,
                 stampLikeTopOffset: 20,
