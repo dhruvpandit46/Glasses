@@ -1,0 +1,765 @@
+<!DOCTYPE html public "Jeeliz">
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="preload" href="images/LOGO_JEELIZ_BETA.png" as="image" />
+  <link rel="preload" href="styles/bundle.css" as="style" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="canonical" href="https://jeeliz.com/sunglasses/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="google-site-verification" content="lBpR3g7e2nw29QfISmqVm35zr1oSjTDLT4S-RF23HKQ" />
+  <title>Seeed Studio</title>
+  <link rel="manifest" href="manifest.json" />
+  <!-- Google Analytics script -->
+  <script async src="www.googletagmanager.com\gtag\Railway.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B2Z2277VJ7');
+  </script>
+  <!-- opengraph -->
+  <meta name="description" content="Try Ray-Ban sunglasses with your webcam in your browser, share your pictures with your friends and buy your favorite frames at the best price on Amazon." />
+  <!-- Facebook OGPs -->
+  <meta property="og:description" content="Try Ray-Ban sunglasses with your webcam in your browser, share your pictures with your friends and buy your favorite frames at the best price on Amazon." />
+  <meta property="og:title" content="Seeed Studio" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jeeliz.com/sunglasses/" />
+  <meta property="og:image" content="images/JEELIZ_BETA.jpg" />
+  <meta property="og:site_name" content="Jaiswal Shubh" />
+  <!-- Twitter cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="Jaiswal" />
+  <meta name="twitter:title" content="JEELIZ Sunglasses virtual try-on" />
+  <meta name="twitter:description" content="Try Ray-Ban sunglasses with your webcam in your browser, share your pictures with your friends and buy your favorite frames at the best price on Amazon."/>
+  <meta name="twitter:image" content="images/jeeliz_image.jpg" />  
+  <!-- Special fonts -->
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.fr,Intl.~locale.en"></script>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/JEELIZ_BETA.jpg" type="image/x-icon" />
+  <link href='images/JEELIZ_BETA.jpg' rel='icon' type='image/png' />
+  <!-- Slick carousel -->
+  <link rel='stylesheet' type='text/css' href='styles/bundle.css' />
+  <!-- Caman picture filters -->
+  <script src="scripts/caman.full.min.js"></script>
+  <!-- TextDecoder polyfill -->
+  <script src="scripts/encoding.js"></script>
+  <script src='scripts/vintage.min.js'></script>
+  <script src='https://appstatic.jeeliz.com/jeefit/jeefitNNC.js'></script>
+  <!-- <script src='scripts/dev/1_replaced.js'></script> -->
+  <!-- Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="JEELIZ" />
+  <link rel="apple-touch-icon" href="images/logoIcons/logo152.png" />
+  <!-- Google Fonts: Raleway -->
+  <link href="fonts.googleapis.com/Raleway.css" rel="stylesheet" />
+  <!-- The icon for windows -->
+  <meta name="msapplication-TileImage" content="images/logoIcons/logo144.png" />
+  <meta name="msapplication-TileColor" content="#01afec" />
+  <!-- only very standard style for browser which suck -->
+  <script>
+    window.ISBROWSERNOTSUCKS = false;
+    function openBrowserSucks() {
+      setTimeout(function() {
+        const DOMwhiteMask = document.getElementById('whiteMask');
+        if (DOMwhiteMask) {
+          document.body.removeChild(DOMwhiteMask);
+        }    
+        const DOMbrowserSuck = document.getElementById('browserSucksModal');
+        if (!DOMbrowserSuck) {
+          return;
+        }
+        if (window.ISBROWSERNOTSUCKS) {
+          document.body.removeChild(DOMbrowserSuck);
+        } else {
+          DOMbrowserSuck.style.display = 'block';
+        }
+      }, 5000); // end setTimeout
+      const hPx = 1.25 * window.outerHeight;
+      const DOMwhiteMask = document.getElementById('whiteMask');
+      if (DOMwhiteMask) {
+        DOMwhiteMask.style.height = hPx.toString() + 'px';
+      }
+    }; //end openBrowserSucks()
+    // LOG GLOBAL ERROR TO GOOGLEANALYTICS
+    function logJSErrorsGA(errLabel, errorAction) {
+      // Need to transform to string otherwise not displayed in GA
+      const errorActionText = String(errorAction)
+      ga('send', 'event', errLabel, errorActionText)
+    };
+    window.addEventListener('error', (e) => {
+      console.log('INFO in index.html - window.addEventListener("error") called')
+      const message = e.message
+      logJSErrorsGA('GLOBAL_ERROR', message)
+    })
+  </script>
+  <style type='text/css'>
+/**
+ * GOD-LEVEL PROFESSIONAL CSS FRAMEWORK
+ * Ultra-Premium Modal & Loading System
+ * Version: 2.0 Professional Edition
+ * 
+ * Features:
+ * - Advanced animations with GPU acceleration
+ * - Modern glassmorphism design
+ * - Perfect accessibility compliance
+ * - Cross-browser compatibility
+ * - Mobile-first responsive design
+ * - Ultra-smooth micro-interactions
+ */
+
+/* ==========================================================================
+   CSS CUSTOM PROPERTIES (DESIGN TOKENS)
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Professional Grade */
+  --color-primary: #0c7fc2;
+  --color-primary-light: #1e90ff;
+  --color-primary-dark: #0056cc;
+  --color-secondary: #6366f1;
+  --color-accent: #ec4899;
+  
+  /* Neutrals */
+  --color-white: #ffffff;
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+  
+  /* Typography */
+  --font-family-primary: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family-secondary: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+  
+  /* Spacing Scale */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  
+  /* Border Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  /* Z-Index Scale */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+  --z-popover: 600;
+  --z-tooltip: 700;
+  --z-toast: 800;
+}
+
+/* ==========================================================================
+   BROWSER COMPATIBILITY MODAL - GOD TIER
+   ========================================================================== */
+
+/**
+ * Main modal container with advanced glassmorphism
+ */
+.browser-compatibility-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: var(--z-modal);
+  display: none;
+  padding: var(--spacing-lg);
+  font-family: var(--font-family-primary);
+  
+  /* Glassmorphism backdrop */
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.05)
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  
+  /* Smooth entrance animation */
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition-slow);
+}
+
+.browser-compatibility-modal.is-active {
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/**
+ * Modal content container with premium styling
+ */
+.browser-compatibility-modal__content {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  padding: var(--spacing-3xl) var(--spacing-xl);
+  text-align: center;
+  
+  /* Advanced glassmorphism card */
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.95),
+    rgba(255, 255, 255, 0.85)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-2xl);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  
+  /* Entrance animation */
+  transform: scale(0.9) translateY(20px);
+  transition: transform var(--transition-bounce);
+}
+
+.browser-compatibility-modal.is-active .browser-compatibility-modal__content {
+  transform: scale(1) translateY(0);
+}
+
+/**
+ * Error state styling with modern hierarchy
+ */
+.browser-compatibility-modal__error {
+  color: var(--color-gray-700);
+  margin-bottom: var(--spacing-lg);
+}
+
+/**
+ * Icon container with animated hover effects
+ */
+.browser-compatibility-modal__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto var(--spacing-xl);
+  
+  /* Premium gradient background */
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  border-radius: 50%;
+  box-shadow: var(--shadow-lg);
+  
+  /* Micro-animation */
+  transition: transform var(--transition-normal);
+}
+
+.browser-compatibility-modal__icon:hover {
+  transform: scale(1.05) rotate(5deg);
+}
+
+.browser-compatibility-modal__icon img {
+  width: 60px;
+  height: 60px;
+  filter: brightness(0) invert(1);
+  transition: filter var(--transition-normal);
+}
+
+/**
+ * Typography hierarchy with perfect spacing
+ */
+.browser-compatibility-modal__title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-gray-900);
+  margin-bottom: var(--spacing-lg);
+  letter-spacing: -0.025em;
+}
+
+.browser-compatibility-modal__subtitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-gray-600);
+  margin-bottom: var(--spacing-md);
+}
+
+.browser-compatibility-modal__description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-500);
+  margin-bottom: var(--spacing-xl);
+}
+
+.browser-compatibility-modal__footer {
+  font-size: 0.875rem;
+  color: var(--color-gray-400);
+  font-style: italic;
+}
+
+/* ==========================================================================
+   LOADING OVERLAY - ULTRA PREMIUM
+   ========================================================================== */
+
+/**
+ * Full-screen loading overlay with dynamic background
+ */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: var(--z-modal-backdrop);
+  /* Dynamic gradient background */
+  background: linear-gradient(
+    -45deg,
+    var(--color-primary),
+    var(--color-secondary),
+    var(--color-accent),
+    var(--color-primary-light)
+  );
+  background-size: 400% 400%;
+  animation: gradient-shift 8s ease infinite;
+  /* Flexbox centering */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xl);
+  /* Smooth transitions */
+  opacity: 1;
+  visibility: visible;
+  transition: all var(--transition-slow);
+}
+.loading-overlay.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+/**
+ * Loading text with premium typography
+ */
+.loading-overlay__text {
+  font-family: var(--font-family-primary);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  letter-spacing: 0.025em;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle breathing animation */
+  animation: text-breathe 2s ease-in-out infinite alternate;
+}
+/* ==========================================================================
+   SEO CONTENT CONTAINER - MODERN DESIGN
+   ========================================================================== */
+/**
+ * SEO-optimized content container with responsive design
+ */
+.seo-content-container {
+  max-width: 1200px;
+  width: min(90%, 1200px);
+  margin: 0 auto;
+  padding: var(--spacing-xl);
+  font-family: var(--font-family-primary);
+  /* Subtle border accent */
+  border-left: 4px solid var(--color-primary);
+  border-right: 4px solid var(--color-primary);
+  /* Modern card styling */
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  /* Responsive adjustments */
+  transition: all var(--transition-normal);
+}
+.seo-content-container:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+/**
+ * Responsive image styling
+ */
+.seo-content-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal);
+}
+.seo-content-container img:hover {
+  transform: scale(1.02);
+}
+/* ==========================================================================
+   PREMIUM LOADING SPINNER - FOLDING CUBE REIMAGINED
+   ========================================================================== */
+/**
+ * Container for the advanced loading animation
+ */
+.premium-loader {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin: var(--spacing-xl) auto;
+  /* 3D perspective for depth */
+  perspective: 200px;
+  transform-style: preserve-3d;
+}
+/**
+ * Individual cube elements with GPU acceleration
+ */
+.premium-loader__cube {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  /* Enable hardware acceleration */
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+.premium-loader__cube::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Premium gradient background */
+  background: linear-gradient(135deg, var(--color-white), rgba(255, 255, 255, 0.8));
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  /* Advanced 3D animation */
+  transform-origin: 100% 100%;
+  animation: premium-cube-fold 2.4s infinite linear;
+}
+/* Individual cube positioning and timing */
+.premium-loader__cube:nth-child(1) {
+  top: 0;
+  left: 0;
+  transform: scale(1.1);
+}
+.premium-loader__cube:nth-child(2) {
+  top: 0;
+  right: 0;
+  transform: scale(1.1) rotateZ(90deg);
+}
+.premium-loader__cube:nth-child(2)::before {
+  animation-delay: 0.3s;
+}
+.premium-loader__cube:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  transform: scale(1.1) rotateZ(180deg);
+}
+.premium-loader__cube:nth-child(3)::before {
+  animation-delay: 0.6s;
+}
+.premium-loader__cube:nth-child(4) {
+  bottom: 0;
+  left: 0;
+  transform: scale(1.1) rotateZ(270deg);
+}
+.premium-loader__cube:nth-child(4)::before {
+  animation-delay: 0.9s;
+}
+/* ==========================================================================
+   ADVANCED ANIMATIONS & KEYFRAMES
+   ========================================================================== */
+/**
+ * Dynamic background gradient animation
+ */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/**
+ * Subtle text breathing effect
+ */
+@keyframes text-breathe {
+  0% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+}
+/**
+ * Premium 3D cube folding animation
+ */
+@keyframes premium-cube-fold {
+  0%, 10% {
+    transform: perspective(200px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%, 75% {
+    transform: perspective(200px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%, 100% {
+    transform: perspective(200px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+/**
+ * Pulse animation for interactive elements
+ */
+@keyframes premium-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(12, 127, 194, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(12, 127, 194, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(12, 127, 194, 0);
+  }
+}
+/* ==========================================================================
+   RESPONSIVE DESIGN - MOBILE FIRST
+   ========================================================================== */
+
+/**
+ * Mobile optimizations (up to 640px)
+ */
+@media (max-width: 640px) {
+  .browser-compatibility-modal__content {
+    margin: var(--spacing-md);
+    padding: var(--spacing-xl) var(--spacing-lg);
+  }
+  .browser-compatibility-modal__title {
+    font-size: 1.5rem;
+  }
+  .browser-compatibility-modal__icon {
+    width: 100px;
+    height: 100px;
+  }
+  .browser-compatibility-modal__icon img {
+    width: 50px;
+    height: 50px;
+  }
+  .premium-loader {
+    width: 50px;
+    height: 50px;
+  }
+  .seo-content-container {
+    width: 95%;
+    padding: var(--spacing-lg);
+  }
+}
+/**
+ * Tablet optimizations (641px to 1024px)
+ */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .browser-compatibility-modal__content {
+    max-width: 600px;
+  }
+  
+  .seo-content-container {
+    width: 85%;
+  }
+}
+/**
+ * Desktop optimizations (1025px and up)
+ */
+@media (min-width: 1025px) {
+  .browser-compatibility-modal__content {
+    max-width: 700px;
+    padding: var(--spacing-3xl) var(--spacing-2xl);
+  }
+  
+  .browser-compatibility-modal__title {
+    font-size: 2.25rem;
+  }
+  
+  .loading-overlay__text {
+    font-size: 1.5rem;
+  }
+}
+/* ==========================================================================
+   ACCESSIBILITY ENHANCEMENTS
+   ========================================================================== */
+
+/**
+ * Reduced motion preferences
+ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+/**
+ * High contrast mode support
+ */
+@media (prefers-contrast: high) {
+  .browser-compatibility-modal__content {
+    border: 2px solid var(--color-gray-900);
+  }
+  
+  .loading-overlay {
+    background: var(--color-gray-900);
+  }
+}
+/**
+ * Dark mode support
+ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-white: #1f2937;
+    --color-gray-900: #f9fafb;
+    --color-gray-700: #d1d5db;
+    --color-gray-600: #9ca3af;
+    --color-gray-500: #6b7280;
+    --color-gray-400: #4b5563;
+  }
+  .browser-compatibility-modal__content {
+    background: linear-gradient(
+      145deg,
+      rgba(31, 41, 55, 0.95),
+      rgba(31, 41, 55, 0.85)
+    );
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}
+/* ==========================================================================
+   UTILITY CLASSES
+   ========================================================================== */
+
+/**
+ * Screen reader only content
+ */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+/**
+ * Focus visible for accessibility
+ */
+.focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+/**
+ * Smooth transitions utility
+ */
+.transition-smooth {
+  transition: all var(--transition-normal);
+}
+/**
+ * Hardware acceleration utility
+ */
+.gpu-accelerated {
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+  </style>
+</head>
+<body onload='openBrowserSucks();'>
+  <div class='whiteMask' id='whiteMask'>
+    <div class="whiteMaskLoader">
+    <div class="sk-folding-cube">
+      <div class="sk-cube1 sk-cube"></div>
+      <div class="sk-cube2 sk-cube"></div>
+      <div class="sk-cube4 sk-cube"></div>
+      <div class="sk-cube3 sk-cube"></div>
+    </div>
+    <div class="whiteMaskText">Loading</div>  
+    </div>
+  </div>
+  <script>
+    const hPx = 1.25 * window.outerHeight;
+    const DOMwhiteMask = document.getElementById('whiteMask');
+    if (DOMwhiteMask){
+      DOMwhiteMask.style.height = hPx.toString() + 'px';
+    }
+  </script>
+  <div id="fb-root"></div>
+  <div id="appRoot" class="jeelizAppRoot"></div>
+  <div class='browserSucksModal' id='browserSucksModal'>
+    <div class="browserSucks-error"><b>ERROR:</b> Your browser isn't compatible</div>
+    <img className="browserSucks-img" src="images/robot.svg" alt="A cool robot">
+    <div class="browserSucks-text1">Unfortunately, your browser isn't compatible with our web application.</div>
+    <div class="browserSucks-text2">Please visit jeeliz.com with:</div>
+    <div className="browserSucks-links">
+      <div className="browserSucks-google"><a href="https://www.google.com/chrome" target="_blank" rel="">Google Chrome (54 or +)</a></div>
+      <div className="browserSucks-firefox"><a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Mozilla Firefox (46 or +)</a></div>
+      <div className="browserSucks-safari">Safari (9 or +)</div>
+    </div>
+    <div class="browserSucks-text3">Thank you for your understanding.</div>
+  </div>
+  <div id='SEOCloak' class='SEOCloak'>
+    <!--SEOCLOAK-->
+  </div>
+  <script src="scripts/bundle.js" async></script>
+  <script src="imageResizer/ImageResizer.js" async></script>
+  <!-- Facebook SDK for Facebook Share button -->
+  <script src='scripts/facebook.js'></script>
+  <script src='appSettings.js'></script>
+  <script>    
+    // launch service worker - should be in the HTML file
+    /*const isLocal = ('hostname' in window.location)
+                && APPSETTINGS.disableServiceWorkersHosts.indexOf(window.location.hostname)!==-1;// (window.location.hostname==='127.0.0.1' || window.location.hostname==='localhost');
+    //isLocal = false;            
+    if (('serviceWorker' in navigator) && !isLocal) {
+      console.log('Will service worker register?');
+      navigator.serviceWorker.register('service-worker.js').then(function(reg){
+        console.log('INFO: service-worker registered');
+        try {
+          reg.update()
+        } catch (e) {
+          console.log('WARNING: cannot update service-worker')
+          logJSErrorsGA('SERVICEWORKER_UPDATE', e)
+        }
+      }).catch(function (err) {
+        console.log("WARNING: cannot register service worker - ", err);
+        logJSErrorsGA('SERVICEWORKER_REGISTRATION', err)
+      });
+    }//*/
+  </script>
+</body>
+</html>
