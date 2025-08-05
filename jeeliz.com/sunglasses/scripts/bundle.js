@@ -5320,9 +5320,8 @@ const ia = function(e) {
 
   var l = "prices " + r;
 
-  // Use your real Webhook URL (from Adafruit IO -> Integrations)
   var WEBHOOK_URL   = "https://io.adafruit.com/api/v2/webhooks/feed/Um8Vy17tFtRk3GUiCthFsCHGFk2f";
-  var STORE_QR_BASE = "https://your-store.com/order/"; // change to your domain/path
+  var STORE_QR_BASE = "https://your-store.com/order/";
 
   var genCode = function() {
     return Math.random().toString(36).slice(2, 8).toUpperCase();
@@ -5343,23 +5342,22 @@ const ia = function(e) {
       name: t.name || t.title || t.productName || "Ray-Ban Glasses",
       description: t.description || t.desc || "Ray-Ban Round Double Bridge",
       price: t.price || t.salePrice || t.mrp || "$255",
+      orderID: "36",
       ts: {
         raw: Date.now(),
         display: new Date().toLocaleString()
-}
-
+      }
     };
 
     fetch(WEBHOOK_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      // Adafruit IO feeds expect a string in "value"
       body: JSON.stringify({ value: JSON.stringify(payload) })
     })
     .then(function(res) {
       if (!res.ok) throw new Error("Webhook failed: " + res.status);
 
-      // --- Fixed analytics (value must be a number; SKU goes in label) ---
+      // --- Analytics (optional)
       if (typeof dt !== "undefined" && dt.event) {
         try {
           dt.event({
@@ -5373,11 +5371,16 @@ const ia = function(e) {
           console.warn("Analytics event failed:", e);
         }
       }
-      // Optional UI feedback
-      // alert("Sent to print queue!");
+
+      // ---> OPEN anique.html when webhook succeeded
+      window.open("anique.html", "_blank");
+
     })
     .catch(function(err) {
       console.error("Adafruit IO webhook failed:", err);
+
+      // ---> Even if webhook fails, still open anique.html
+      window.open("anique.html", "_blank");
     })
     .finally(function() {
       isSending = !1;
@@ -5392,6 +5395,7 @@ const ia = function(e) {
     }, void 0, "Print")
   );
 };
+
 
 
 
