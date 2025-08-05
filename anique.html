@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="anique.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="success-animation">
+        <svg class="tick" viewBox="0 0 70 70">
+          <circle cx="35" cy="35" r="33" class="circle" />
+          <path class="check" d="M20 37 L30 47 L50 27" />
+        </svg>
+      </div>
+
+      <h1>Thank You For Purchasing!</h1>
+      <p>Your order has been confirmed</p>
+      <p>Order ID: <span id="orderId">36</span></p>
+      <p class="receive">Kindly receive your order from counter.</p>
+    </div>
+
+    <canvas id="confetti"></canvas>
+    <script src="anique.js"></script>
+  </body>
+</html>
