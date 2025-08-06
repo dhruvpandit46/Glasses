@@ -5392,7 +5392,7 @@ const ia = function(e) {
       type: "button",
       onClick: handlePrintClick,
       className: "prices__print"
-    }, void 0, "Print")
+    }, void 0, "Buy")
   );
 };
 
