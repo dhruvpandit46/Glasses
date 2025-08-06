@@ -18,16 +18,33 @@ body {
 }
 
 .container {
-  width: 90%;
-  max-width: 420px;
+  width: 95%;
+  max-width: 720px;   /* 🖥️ bigger on larger screens */
   background-color: white;
-  padding: 50px 30px;
+  padding: 60px 40px;
   text-align: center;
   border-radius: 16px;
   position: relative;
   z-index: 2;
   box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
 }
+
+/* Tablet / Laptop view */
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+    padding: 80px 60px;
+  }
+}
+
+/* Large PC screen */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 950px;
+    padding: 100px 80px;
+  }
+}
+
 
 h1 {
   color: #2e7d32;
@@ -44,7 +61,7 @@ p {
 }
 
 .success-animation {
-  width: 140px;
+  width: 170px;
   margin: 0 auto 20px;
 }
 
@@ -70,7 +87,7 @@ p {
   stroke-linejoin: round;
   stroke-dasharray: 100;
   stroke-dashoffset: 100;
-  animation: drawCheck 0.6s ease-out forwards 1.3s;
+  animation: drawCheck 1.2s ease-out forwards 1.2s;
 }
 
 @keyframes drawCircle {
@@ -94,3 +111,26 @@ p {
   pointer-events: none;
   z-index: 1;
 }
+
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: black;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s;
+}
+
+.back-btn:hover {
+  background-color: grey;
+  transform: scale(1.05);
+}
+
+
